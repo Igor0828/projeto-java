@@ -1,18 +1,19 @@
-## Getting Started
+# Projeto Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Exercicios de logica de programacao em Java: vetores, condicionais e calculos basicos.
 
-## Folder Structure
+## Estrutura
 
-The workspace contains two folders by default, where:
+- `src/` - codigo-fonte dos exercicios
+- `bin/` - arquivos compilados (.class)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Exercicios
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+`crescente`, `diagonal_negativo`, `idades`, `menor_de_tres`, `retangulo`, `soma_impares`, `soma_vetor`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Como rodar
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```bash
+javac -d bin src/*.java
+java -cp bin App
+```
